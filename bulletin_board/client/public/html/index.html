@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bulletin Board</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!--<link rel="stylesheet" type="text/css" href="./public/css/styles.css"> -->
+</head>
+<body>
+	<h1 class="text-center">Welcome</h1>
+	<br>
+	<h3 class="text-center">Please provide a title and a polite message</h3>
+	<div class="text-center center-block">
+		<form id="guestbook-form">
+			<label>Title</label><br>
+			<input type="text" id="text-input"/><br>
+    		<label>Message</label><br>
+    		<div class="form-group">
+   			<textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+  			</div>
+			<br>
+			<input class="btn btn-secondary" id="submit-this" type="submit">
+		</form>
+	</div>
+	<div id="everything-div"></div>
+	<div id = "update-message-modal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content text-center">
+				<div class="modal-header">
+					<h2>Update Message</h2>
+				</div>
+				<div class="modal-body"></div>
+				<div class="modal-footer"></div>
+			</div>
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./public/js/app.js"></script>
+</body>
+</html>
+

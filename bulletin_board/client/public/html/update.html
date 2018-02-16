@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Update iTunes</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./public/css/update.css">
+</head>
+<body>
+	<div class="container text-center center-block">
+		<h1>Update/Add/Delete from Songs Table</h1>
+		<a href='/'>
+			<button class='btn btn-warning'>
+				<span class='glyphicon glyphicon-home' aria-hidden='true'></span>
+			</button>
+		</a>
+		<br><br>
+		<select class="form-control" id="cud-select">
+			<option disabled selected>Select One</option>
+			<option>Create</option>
+			<option>Update</option>
+			<option>Delete</option>
+		</select>
+		<div id="cud-div"></div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="./public/js/update.js"></script>
+</body>
+</html>
